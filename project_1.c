@@ -7,11 +7,11 @@ int main()
 printf("                                                                 THE MURDER\n");
 printf("                                 You are a detective. A person has been murdered. There are three suspects:\n");
 printf("   1. BEN\n");
-printf("   2. CIA\n");
-printf("   3. EVA\n");
+printf("   2. EVA\n");
+printf("   3. CIA\n");
 printf("   you must answer to find the killer\n");
 printf("--------------------------------------------------------------------------------------------------------------------------------------------\n");
-printf("CHALLENGE 1\n");
+printf("     CHALLENGE 1\n");
 printf("--------------------------------------------------------------------------------------------------------------------------------------------\n");                                        
 
 printf("I only have a face and two hands but i cannot clap. who am I ? \n");
@@ -31,7 +31,7 @@ else
     return 0;
 }
 printf("-------------------\n");
-printf("CHALLENGE 2\n");
+printf("      CHALLENGE 2\n");
 printf("-------------------\n");
 printf("What is the symbol of imaginary complex number\n");
 printf("1. i\n");
@@ -50,7 +50,7 @@ else
     return 0;
 }
 printf("-------------------\n");
-printf("CHALLENGE 3\n");
+printf("     CHALLENGE 3\n");
 printf("-------------------\n");
 printf("Which one of the following is noble gas\n");
 printf("1. oxygen\n");
@@ -68,8 +68,10 @@ else
     return 0;
 }
 printf("clues solved!\n");
-printf("Your clues are as follows :-\n")
-printf("")
+printf("Your clues are as follows :-\n");
+printf(" 1. Clock\n");
+printf(" 2. I\n");
+printf(" 3. Argon\n");
 printf("who is the murderer?\n");
 scanf("%d", &suspect);
 switch (suspect)
@@ -79,11 +81,11 @@ switch (suspect)
     break;
     
     case 2:
-    printf("you caught the killer");
+    printf("wrong! eva is innocent");
     break;
    
     case 3:
-    printf("wrong! eva is innocent");
+    printf("you caught the killer");
     break;
     
 }
