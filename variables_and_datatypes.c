@@ -83,6 +83,7 @@ int main()
     scanf("%d",&age);
     printf("age is : %d\n", age);
 
+    // 1. write a program to calculate sum of two numbers 
     int a,b ;
     printf("enter a");
     scanf("%d", &a);
@@ -91,7 +92,7 @@ int main()
     int sum = a + b;
     printf("sum is : %d", sum); // or printf("sum is : %d", a+b);
 
-    // Write a program to calculate area of a circle
+    // 2. Write a program to calculate area of a circle
     int side;
     printf("enter length of side ");
     scanf("%d",&side);
