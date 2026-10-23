@@ -35,4 +35,13 @@ int main(){
     age >=18 ? printf("adult \n") : printf("not adult \n");
     return 0;
 }
+/* ---------- conditional operator -> switch ----------
+switch(number){
+case c1://do something
+       break;
+case c2://do something
+       break;
+default://do something (like else)
+
+}
 */
