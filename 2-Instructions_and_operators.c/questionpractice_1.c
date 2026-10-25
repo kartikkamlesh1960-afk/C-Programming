@@ -1,6 +1,23 @@
-// Question 5. write a program to check if a number is disible by 2 or not.
+// Question 3. write a program for type conversing f in whcih decimal should not be there
 #include<stdio.h>
 int main(){
+     int f = (int) 1.99999;
+     printf("%d \n",f);
+
+// Question 4. a. 5*2-2*3
+                  int l = 5 * 2 - 3 * 2 ;
+                  printf("%d\n",l);
+//        b. 5 * 2 / 2 * 3
+             int m = 5 * 2 / 2 * 3 ;
+             printf("%d\n",m);
+//        c. 5*(2/2)*3
+             int n = 5*(2/2)*3;
+             printf("%d\n",n);
+//        d.5+2/2*3
+             int o = 5+2/2*3;
+             printf("%d\n",o);
+
+// Question 5. write a program to check if a number is disible by 2 or not.
 int r ;
 printf("enter your number :");
 scanf("%d",&r);
