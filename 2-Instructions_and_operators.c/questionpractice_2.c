@@ -29,14 +29,20 @@ int main() {
 
 
 //Question 9. Write a program to print the average of 3 numbers.
+#include <stdio.h>
 
+int main() {
+    float num1, num2, num3, average;
 
+    printf("Enter three numbers: ");
+    scanf("%f %f %f", &num1, &num2, &num3);
 
+    average = (num1 + num2 + num3) / 3.0;
 
+    printf("Average = %.2f\n", average);
 
-
-
-
+    return 0;
+}
 
 // Question 10. Write a program to check if given character is digit or not.
 
