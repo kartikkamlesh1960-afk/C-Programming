@@ -24,7 +24,8 @@ else{
 return 0;
 }
 
-/* ---------- conditional operator -> ternary ----------
+/* 
+     ---------- conditional operator -> ternary ----------
 -> condition? dosomething if true : do something if false;
 #include<stdio.h>
 int main(){
@@ -35,7 +36,7 @@ int main(){
     age >=18 ? printf("adult \n") : printf("not adult \n");
     return 0;
 }
-/* ---------- conditional operator -> switch ----------
+     ---------- conditional operator -> switch ----------
 switch(number){
 case c1://do something
        break;
