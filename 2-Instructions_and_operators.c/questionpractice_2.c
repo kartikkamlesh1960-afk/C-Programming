@@ -3,24 +3,16 @@ Print 1(true) or 0(false) for following statements :
 a. if it's sunday & it's snowing -> true
 b. if it's monday or it's raining -> true
 c. if a number is greater than 9 & less than 100 -> true*/
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+int a,sun = 1,mon =0,snow = 1,rain = 1 ;          
+printf("a : %d\n ", sun && snow);           // if sun and snow both are true the && follows the trend 
+printf("b : %d\n ", mon || rain);          // now from both mon and rain if singe one is true the || is also true
+printf("take a number a : ");
+scanf("%d",&a);
+printf("c : %d\n ", a>9  && a<100 ); 
+return 0;
 
-int main() {
-    // --- Part a ---
-    int isSunday = 1;   // 1 for true, 0 for false
-    int isSnowing = 1;
-    printf("a: %d\n", isSunday && isSnowing);
-
-    // --- Part b ---
-    int isMonday = 0;
-    int isRaining = 1;
-    printf("b: %d\n", isMonday || isRaining);
-
-    // --- Part c ---
-    int number = 45;
-    printf("c: %d\n", (number > 9) && (number < 100));
-
-    return 0;
 }
 
 //Question 9. Write a program to print the average of 3 numbers.
