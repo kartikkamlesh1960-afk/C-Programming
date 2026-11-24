@@ -44,5 +44,10 @@ case c2://do something
        break;
 default://do something (like else)
 
+// properties - (1) cases can be in any order 
+(2) nested switch (switch inside switch is allowed)
+(3) nested if else also exist 
+
+
 }
 */
