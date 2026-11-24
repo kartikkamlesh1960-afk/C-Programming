@@ -21,7 +21,7 @@ int main(){
 int r ;
 printf("enter your number :");
 scanf("%d",&r);
-printf("%d\n",r % 2 == 0);
+printf("%d\n",r % 2 == 0);    // if the number is divisible by 2 then the output will be 1 (viceversa)
 
 // Question 6.(similar type ques. as 5th) Check if a number is odd or even.
 int s ;
