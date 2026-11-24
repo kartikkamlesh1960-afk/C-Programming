@@ -1,3 +1,7 @@
+/*An if-else if statement (often called an if-else-if ladder) is a programming control structure used to test multiple conditions sequentially
+and execute a specific block of code for the first condition that evaluates to true*/
+
+
 #include<stdio.h>
 int main(){
     int age ;
