@@ -16,3 +16,17 @@ int main() {
 int sum(int x,int y){
    return x + y;
 }
+
+// use library functions to calculate the square of a number given by user
+
+
+
+
+
+
+
+
+
+
+
+// write a function to calculate area of square, a circle & a rectangle .
