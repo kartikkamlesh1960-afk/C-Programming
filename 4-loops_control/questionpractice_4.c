@@ -10,3 +10,14 @@ for(int i = 0; i<=n; i++){
    printf("%d\n",i);
 }
 }
+
+// print the sum of first n natural numbers n = 4 , also print them in reverse
+
+
+
+
+
+
+
+// print the table of a number input by user , n = 2
+
